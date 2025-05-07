@@ -1,11 +1,11 @@
 //Question One
 // Set up Node.js + Express + MongoDB
 
-const expree = require("express");
+const express = require("express");
 const mongoose = require("mongoose");
 const Item = require("./itemsModel");
-const app = expree();
-app.use(expree.json());
+const app = express();
+app.use(express.json());
 
 const PORT = process.env.PORT || 8000;
 
